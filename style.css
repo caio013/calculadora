@@ -1,0 +1,80 @@
+body{
+  background: linear-gradient(to bottom, #360033, #0b8793);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+} 
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px;
+  margin-left: 37%;
+  margin-top: 6%;
+  padding-bottom: 40px;
+  height: 500px;
+  width: 350px;
+  background-color: #000;
+  box-shadow: 2px 2px 30px 1px #464646;
+  border-radius: 50px;
+}
+.visor{
+  width: 100%;
+  height: 120px;
+  background-color: rgb(22, 22, 22);
+  margin-bottom: 25px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+table{
+  margin: 15px;
+}
+.buttom{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 65px;
+  height: 62px;
+  border-radius: 100%;
+}
+.buttom_special{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 155px;
+  height: 62px;
+  border-radius: 40px;
+}
+.buttom, .buttom_special{
+  font-size: 25px;
+  background-color: rgb(80, 80, 80);
+  color: #fff;
+  margin: 0 5px;
+  font-weight: bold;
+}
+.buttom_special_a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 65px;
+  height: 62px;
+  border-radius: 100%;
+}
+.buttom:hover{
+  cursor: pointer;
+  background-color: rgb(60, 60, 60);
+}
+.buttom_special:hover{
+  cursor: pointer;
+ background-color: rgb(60, 60, 60);
+}
+.buttom_a{
+  background-color: rgb(255, 175, 26);
+}
+.buttom_a:hover{
+  cursor: pointer;
+  background-color: rgb(233, 151, 0);
+}
